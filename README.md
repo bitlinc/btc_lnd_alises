@@ -3,7 +3,8 @@
 # run this command in terminal in /home/Bitcoin to download and active the aliases
 # wget https://raw.githubusercontent.com/bitlinc/btc_lnd_alises/master/README.md
 # mv /home/bitcoin/README.md /home/bitcoin/.bash_aliases
-# logout and then back in
+# source /home/bitcoin/.bashrc
+
 
 ##System
 alias my_alias='sudo nano /home/bitcoin/.bash_aliases'
