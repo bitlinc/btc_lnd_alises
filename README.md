@@ -1,9 +1,11 @@
-# btc_lnd_alises
-# Set for user 'bitcoin'
-# run this command in terminal in /home/Bitcoin to download and active the aliases
-# (1) wget https://raw.githubusercontent.com/bitlinc/btc_lnd_alises/master/README.md
-# (2) mv /home/bitcoin/README.md /home/bitcoin/.bash_aliases
-# (3) source /home/bitcoin/.bashrc
+# Alises for Bitcoin Core - LND - Electrum Personal Server 
+# Written to work ONLY with a system user 'bitcoin' added
+
+# Run these four commands below in terminal to copy all alises to copy and activate alises
+# (1) cd /home/bitcoin 
+# (2) wget https://raw.githubusercontent.com/bitlinc/btc_lnd_alises/master/README.md
+# (3) mv /home/bitcoin/README.md /home/bitcoin/.bash_aliases
+# (4) source /home/bitcoin/.bashrc
 # -------------------------------------------------------------------------------------
 
 # Alises for Bitcoin Core - LND - Electrum Personal Server 
