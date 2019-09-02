@@ -7,7 +7,7 @@
 # (2) wget https://raw.githubusercontent.com/bitlinc/btc_lnd_alises/master/README.md
 # (3) mv /home/bitcoin/README.md /home/bitcoin/.bash_aliases
 # (4) source /home/bitcoin/.bashrc
-# -----------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------------
 
 # Alises for Bitcoin Core - LND - Electrum Personal Server 
  6 ##System
