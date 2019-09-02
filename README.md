@@ -1,7 +1,8 @@
 # btc_lnd_alises
 # Set for user 'bitcoin'
-
-
+# run this command in terminal in /home/Bitcoin to download and active the aliases
+# wget https://raw.githubusercontent.com/bitlinc/btc_lnd_alises/master/README.md
+# mv /home/bitcoin/README.md /home/bitcoin/.bash_aliases
 ##System
 alias my_alias='sudo nano /home/bitcoin/.bash_aliases'
 alias reload_bash='source /home/bitcoin/.bashrc'
@@ -35,13 +36,13 @@ alias lndmauto='sudo nano /etc/systemd/system/lnd_mainnet.service'
 alias lndports='sudo netstat -anp | grep lnd'
 
 ##LND Testnet
-alias lndtconf='sudo nano /home/bitcoin/.lnd/testnet/lnd.conf'
-alias lndtest='/usr/local/bin/lnd --configfile=/home/bitcoin/.lnd/testnet/lnd.conf --datadir=/home/bitcoin/.lnd/testnet/data --logdir=/home/bitcoin/.lnd/testnet/logs --listen=0.0.0.0:19735 $
-alias lndtunlock='lncli --lnddir=/home/bitcoin/.lnd/testnet --rpcserver=0.0.0.0:10010 --macaroonpath=/home/bitcoin/.lnd/testnet/data/chain/bitcoin/testnet/bitcoin.macaroon --tlscertpath=lnd$
-alias lndtcreate='lncli --lnddir=/home/bitcoin/.lnd/testnet --rpcserver=0.0.0.0:10010 --macaroonpath=/home/bitcoin/.lnd/testnet/data/chain/bitcoin/testnet/bitcoin.macaroon --tlscertpath=lnd$
-alias lndtwallet='lncli --lnddir=/home/bitcoin/.lnd/testnet --rpcserver=0.0.0.0:10010 --macaroonpath=/home/bitcoin/.lnd/testnet/data/chain/bitcoin/testnet/bitcoin.macaroon --tlscertpath=lnd$
-alias lndtconnect='lndconnect  --lnddir=/home/bitcoin/.lnd/testnet --bitcoinmacaroonpath=/home/bitcoin/.lnd/testnet/data/chain/bitcoin/testnet/bitcoin.macaroon --tlscertpath=/home/bitcoin/.lnd/$
-alias lndtauto='sudo nano /etc/systemd/system/lnd_testnet.service'
+#alias lndtconf='sudo nano /home/bitcoin/.lnd/testnet/lnd.conf'
+#alias lndtest='/usr/local/bin/lnd --configfile=/home/bitcoin/.lnd/testnet/lnd.conf --datadir=/home/bitcoin/.lnd/testnet/data --logdir=/home/bitcoin/.lnd/testnet/logs --listen=0.0.0.0:19735 $
+#alias lndtunlock='lncli --lnddir=/home/bitcoin/.lnd/testnet --rpcserver=0.0.0.0:10010 --macaroonpath=/home/bitcoin/.lnd/testnet/data/chain/bitcoin/testnet/bitcoin.macaroon --tlscertpath=lnd$
+#alias lndtcreate='lncli --lnddir=/home/bitcoin/.lnd/testnet --rpcserver=0.0.0.0:10010 --macaroonpath=/home/bitcoin/.lnd/testnet/data/chain/bitcoin/testnet/bitcoin.macaroon --tlscertpath=lnd$
+#alias lndtwallet='lncli --lnddir=/home/bitcoin/.lnd/testnet --rpcserver=0.0.0.0:10010 --macaroonpath=/home/bitcoin/.lnd/testnet/data/chain/bitcoin/testnet/bitcoin.macaroon --tlscertpath=lnd'
+#alias lndtconnect='lndconnect  --lnddir=/home/bitcoin/.lnd/testnet --bitcoinmacaroonpath=/home/bitcoin/.lnd/testnet/data/chain/bitcoin/testnet/bitcoin.macaroon --tlscertpath=/home/bitcoin/.lnd/
+#alias lndtauto='sudo nano /etc/systemd/system/lnd_testnet.service'
 
 ##Electron Personal Server Mainnet
 alias epsmlog='tail -f /home/bitcoin/EPS_mainnet/eps_mainnet_log'
