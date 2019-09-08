@@ -2,15 +2,12 @@
 # *** Only works with system user 'bitcoin' ***
 
 # Run these commands below in terminal to copy and activate alises
-# *** copy / paste everything to the right of the number ***
-# (1) su root
-# (2) cd ~
+# *** copy / paste everything to the right of the number and replace YOUR USERNAME ex: YOUR USERNAME -> bitcoin ***
+# (1) su YOUR USERNAME GOES HERE
+# (2) cd ~ 
 # (3) wget https://raw.githubusercontent.com/bitlinc/btc_lnd_alises/master/README.md
-# (4) mv /home/pi/README.md /home/pi/.bash_aliases && source /home/pi/.bashrc
-# (5) chown -R pi:pi /home/pi/.bash_alaises
-# (6) mv ~/README.md /home/bitcoin/.bash_aliases && chown -R bitcoin:bitcoin /home/bitcoin/.bash_aliases && source /home/bitcoin/.bashrc
-# (7) chown -R pi:pi /home/pi/.bash_alaises
-# (9) source /home/bitcoin/.bashrc
+# (4) mv /READ.md /home/YOUR USER NAME GOES HERE/.bash_aliases
+# (5) source /home/YOUR USER NAME GOES HERE/.bashrc
 # ------------------------------------------------------------------------------------------------------------------------
 
 # Alises for Bitcoin Core - LND - Electrum Personal Server 
