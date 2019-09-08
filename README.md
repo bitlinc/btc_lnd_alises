@@ -3,44 +3,48 @@
 
 # Run these four commands below in terminal to copy and activate alises
 # *** copy / paste everything to the right of the number ***
-# (1) cd /home/bitcoin 
-# (2) wget https://raw.githubusercontent.com/bitlinc/btc_lnd_alises/master/README.md
-# (3) mv /home/bitcoin/README.md /home/bitcoin/.bash_aliases
-# (4) source /home/bitcoin/.bashrc
+# (1) su root
+# (2) cd ~
+# (3) wget https://raw.githubusercontent.com/bitlinc/btc_lnd_alises/master/README.md
+# (4) mv /home/pi/README.md /home/pi/.bash_aliases && source /home/pi/.bashrc
+# (5) chown -R pi:pi /home/pi/.bash_alaises
+# (6) mv ~/README.md /home/bitcoin/.bash_aliases && chown -R bitcoin:bitcoin /home/bitcoin/.bash_aliases && source /home/bitcoin/.bashrc
+# (7) chown -R pi:pi /home/pi/.bash_alaises
+# (9) source /home/bitcoin/.bashrc
 # ------------------------------------------------------------------------------------------------------------------------
 
 # Alises for Bitcoin Core - LND - Electrum Personal Server 
- 6 ##System
- 7 alias my_alias='nano /home/bitcoin/.bash_aliases'
- 8 alias reload_bash='source /home/bitcoin/.bashrc'
- 9
-10 ##Bitcoin Mainnet 
-11 alias btcmlog='tail -f /home/bitcoin/.bitcoin/debug.log'
-12 alias btcmpi='bitcoin-cli getpeerinfo'
-13 alias btcmcc='bitcoin-cli getconnectioncount'
-14 alias btcmwi='bitcoin-cli getwalletinfo'
-15 alias btcmconf='nano /home/bitcoin/.bitcoin/bitcoin.conf'
-16 alias btcmbi='bitcoin-cli getblockchaininfo'
-17 alias btcmgn='bitcoin-cli getnetworkinfo'
-18 alias btcmauto='nano /etc/systemd/system/bitcoind_mainnet.service'
-19 alias btcports='netstat -anp | grep bitcoind'
+ ##System
+ alias my_alias='nano /home/bitcoin/.bash_aliases'
+ alias reload_bash='source /home/bitcoin/.bashrc'
+
+##Bitcoin Mainnet 
+alias btcmlog='tail -f /home/bitcoin/.bitcoin/debug.log'
+alias btcmpi='bitcoin-cli getpeerinfo'
+alias btcmcc='bitcoin-cli getconnectioncount'
+alias btcmwi='bitcoin-cli getwalletinfo'
+alias btcmconf='nano /home/bitcoin/.bitcoin/bitcoin.conf'
+alias btcmbi='bitcoin-cli getblockchaininfo'
+alias btcmgn='bitcoin-cli getnetworkinfo'
+alias btcmauto='nano /etc/systemd/system/bitcoind_mainnet.service'
+alias btcports='netstat -anp | grep bitcoind'
 20
 21 ##Bitcoin Testnet
-22 alias btctlog='tail -f /home/bitcoin/.bitcoin/testnet3/debug.log'
-23 alias btctpi='bitcoin-cli -testnet getpeerinfo'
-24 alias btctcc='bitcoin-cli -testnet getconnectioncount'
-25 alias btctwi='bitcoin-cli -testnet getwalletinfo'
-26 alias btctconf='nano /home/bitcoin/.bitcoin/testnet3/bitcoin.conf'
-27 alias btctbi='bitcoin-cli -testnet getblockchaininfo'
-28 alias btctgn='bitcoin-cli -testnet getnetworkinfo'
-29 alias btctauto='nano /etc/systemd/system/bitcoind_testnet.service'
-30
-31 ##LND Mainnet
-32 alias lndmconf='nano /home/bitcoin/.lnd/lnd.conf'
-33 alias lndmain='/usr/local/bin/lnd'
-34 alias lndmunlock='lncli unlock'
-35 alias lndmauto='nano /etc/systemd/system/lnd_mainnet.service'
-36 alias lndports='netstat -anp | grep lnd'
+alias btctlog='tail -f /home/bitcoin/.bitcoin/testnet3/debug.log'
+alias btctpi='bitcoin-cli -testnet getpeerinfo'
+alias btctcc='bitcoin-cli -testnet getconnectioncount'
+alias btctwi='bitcoin-cli -testnet getwalletinfo'
+alias btctconf='nano /home/bitcoin/.bitcoin/testnet3/bitcoin.conf'
+alias btctbi='bitcoin-cli -testnet getblockchaininfo'
+alias btctgn='bitcoin-cli -testnet getnetworkinfo'
+alias btctauto='nano /etc/systemd/system/bitcoind_testnet.service'
+
+##LND Mainnet
+alias lndmconf='nano /home/bitcoin/.lnd/lnd.conf'
+alias lndmain='/usr/local/bin/lnd'
+alias lndmunlock='lncli unlock'
+alias lndmauto='nano /etc/systemd/system/lnd_mainnet.service'
+alias lndports='netstat -anp | grep lnd'
 
 ##LND Mainnet
 alias lndmconf='sudo nano /home/bitcoin/.lnd/lnd.conf'
