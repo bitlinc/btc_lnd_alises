@@ -1,7 +1,7 @@
 # Alises for Bitcoin Core - LND - Electrum Personal Server 
 # *** Only works with system user 'bitcoin' ***
 
-# Run these four commands below in terminal to copy and activate alises
+# Run these commands below in terminal to copy and activate alises
 # *** copy / paste everything to the right of the number ***
 # (1) su root
 # (2) cd ~
