@@ -14,6 +14,7 @@
  ##System
  alias my_alias='nano /home/bitcoin/.bash_aliases'
  alias reload_bash='source /home/bitcoin/.bashrc'
+ alias "This is a test from within Git Hub"
 
 ##Bitcoin Mainnet 
 alias btcmlog='tail -f /home/bitcoin/.bitcoin/debug.log'
