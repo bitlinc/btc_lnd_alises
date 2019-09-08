@@ -14,7 +14,6 @@
  ##System
 alias aliases='nano /media/aliases/bitlinc_aliases' 
 
-
 ##Bitcoin Mainnet 
 alias btcmlog='tail -f /home/bitcoin/.bitcoin/debug.log'
 alias btcmpi='bitcoin-cli getpeerinfo'
