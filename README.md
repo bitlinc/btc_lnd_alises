@@ -28,8 +28,8 @@ alias btcmbi='bitcoin-cli getblockchaininfo'
 alias btcmgn='bitcoin-cli getnetworkinfo'
 alias btcmauto='nano /etc/systemd/system/bitcoind_mainnet.service'
 alias btcports='netstat -anp | grep bitcoind'
-20
-21 ##Bitcoin Testnet
+
+##Bitcoin Testnet
 alias btctlog='tail -f /home/bitcoin/.bitcoin/testnet3/debug.log'
 alias btctpi='bitcoin-cli -testnet getpeerinfo'
 alias btctcc='bitcoin-cli -testnet getconnectioncount'
@@ -68,6 +68,7 @@ alias epsmstart='/home/bitcoin/.local/bin/eps_mainnet/electrum-personal-server /
 alias epsmconf='sudo nano /home/bitcoin/EPS_mainnet/config.ini'
 alias epsmauto='sudo nano /etc/systemd/system/eps_mainnet.service'
 ##Electron Personal Server Testnet
+
 alias epstlog='tail -f /home/bitcoin/EPS_testnet/eps_testnet_log'
 alias epststart='/home/bitcoin/.local/bin/eps_testnet/electrum-personal-server /home/bitcoin/EPS_testnet/config.ini'
 alias epstconf='sudo nano /home/bitcoin/EPS_testnet/config.ini'
