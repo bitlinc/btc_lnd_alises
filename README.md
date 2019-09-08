@@ -73,9 +73,8 @@ alias epstauto='sudo nano /etc/systemd/system/eps_testnet.service'
 
 ##Electrum Wallet Mainnet
 alias emauto='sudo nano /etc/systemd/system/electrum_wallet_mainnet.service'
-alias electrum_mainnet_start='electrum --oneserver --server=192.168.2.4:50003:s'
+alias electrummstart='su pi -c "electrum --oneserver --server=192.168.2.4:50003:s"'
 
 ##Electrum Wallet Testnet
 alias etauto='sudo nano /etc/systemd/system/electrum_wallet_testnet.service'
-alias electrum_testnet_start='electrum --testnet --oneserver --server=192.168.2.4:50004:s'
-
+alias electrumtstart='su pi -c "electrum --testnet --oneserver --server=192.168.2.4:50004:s"'
