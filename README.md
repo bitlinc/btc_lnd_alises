@@ -12,9 +12,8 @@
 
 # Alises for Bitcoin Core - LND - Electrum Personal Server 
  ##System
- alias my_alias='nano /home/bitcoin/.bash_aliases'
- alias reload_bash='source /home/bitcoin/.bashrc'
- alias github='echo "This is a test from within Git Hub"'
+alias alias='nano /media/aliases/bitlinc_aliases' 
+
 
 ##Bitcoin Mainnet 
 alias btcmlog='tail -f /home/bitcoin/.bitcoin/debug.log'
@@ -61,12 +60,13 @@ alias lndports='sudo netstat -anp | grep lnd'
 #alias lndtauto='sudo nano /etc/systemd/system/lnd_testnet.service'
 
 ##Electron Personal Server Mainnet
+alias eps='electrum-personal-server'
 alias epsmlog='tail -f /home/bitcoin/EPS_mainnet/eps_mainnet_log'
 alias epsmstart='/home/bitcoin/.local/bin/eps_mainnet/electrum-personal-server /home/bitcoin/EPS_mainnet/config.ini'
 alias epsmconf='sudo nano /home/bitcoin/EPS_mainnet/config.ini'
 alias epsmauto='sudo nano /etc/systemd/system/eps_mainnet.service'
-##Electron Personal Server Testnet
 
+##Electron Personal Server Testnet
 alias epstlog='tail -f /home/bitcoin/EPS_testnet/eps_testnet_log'
 alias epststart='/home/bitcoin/.local/bin/eps_testnet/electrum-personal-server /home/bitcoin/EPS_testnet/config.ini'
 alias epstconf='sudo nano /home/bitcoin/EPS_testnet/config.ini'
@@ -80,8 +80,3 @@ alias electrum_mainnet_start='electrum --oneserver --server=192.168.2.4:50003:s'
 alias etauto='sudo nano /etc/systemd/system/electrum_wallet_testnet.service'
 alias electrum_testnet_start='electrum --testnet --oneserver --server=192.168.2.4:50004:s'
 
-##Scripts
-alias my_scripts='cd ~/.local/bin/cryptoOS_scripts'
-alias verify_software='~/.local/bin/cryptoOS_scripts/gpg_verify.sh'
-alias stop_all='~/.local/bin/cryptoOS_scripts/stop.sh'
-alias auto_start='cd /etc/systemd/system'
