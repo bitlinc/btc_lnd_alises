@@ -12,7 +12,7 @@
 
 # Alises for Bitcoin Core - LND - Electrum Personal Server 
  ##System
-alias alias='nano /media/aliases/bitlinc_aliases' 
+alias aliases='nano /media/aliases/bitlinc_aliases' 
 
 
 ##Bitcoin Mainnet 
