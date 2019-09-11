@@ -59,6 +59,7 @@ alias lndports='sudo netstat -anp | grep lnd'
 #alias lndtauto='sudo nano /etc/systemd/system/lnd_testnet.service'
 
 ##Electron Personal Server Mainnet
+alias epsm='cd ~/eps_mainnet/electrum-personal-server'
 alias eps='electrum-personal-server'
 alias epsmlog='tail -f /home/bitcoin/EPS_mainnet/eps_mainnet_log'
 alias epsmstart='/home/bitcoin/.local/bin/eps_mainnet/electrum-personal-server /home/bitcoin/EPS_mainnet/config.ini'
@@ -66,6 +67,7 @@ alias epsmconf='sudo nano /home/bitcoin/EPS_mainnet/config.ini'
 alias epsmauto='sudo nano /etc/systemd/system/eps_mainnet.service'
 
 ##Electron Personal Server Testnet
+alias epst='cd ~/eps_testnet/electrum-personal-server'
 alias epstlog='tail -f /home/bitcoin/EPS_testnet/eps_testnet_log'
 alias epststart='/home/bitcoin/.local/bin/eps_testnet/electrum-personal-server /home/bitcoin/EPS_testnet/config.ini'
 alias epstconf='sudo nano /home/bitcoin/EPS_testnet/config.ini'
