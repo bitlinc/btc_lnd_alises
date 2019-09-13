@@ -6,7 +6,7 @@
 # (1) su YOUR USERNAME GOES HERE
 # (2) cd ~ 
 # (3) wget https://raw.githubusercontent.com/bitlinc/btc_lnd_alises/master/README.md
-# (4) mv /READ.md /home/YOUR USER NAME GOES HERE/.bash_aliases
+# (4) mv README.md /home/YOUR USER NAME GOES HERE/.bash_aliases
 # (5) source /home/YOUR USER NAME GOES HERE/.bashrc
 # ------------------------------------------------------------------------------------------------------------------------
 
