@@ -24,6 +24,7 @@ alias btcmbi='bitcoin-cli getblockchaininfo'
 alias btcmgn='bitcoin-cli getnetworkinfo'
 alias btcmauto='nano /etc/systemd/system/bitcoind_mainnet.service'
 alias btcports='netstat -anp | grep bitcoind'
+alias btcmautos='systemctl status bitcoind_mainnet.service'
 
 ##Bitcoin Testnet
 alias btctlog='tail -f /home/bitcoin/.bitcoin/testnet3/debug.log'
@@ -34,6 +35,7 @@ alias btctconf='nano /home/bitcoin/.bitcoin/testnet3/bitcoin.conf'
 alias btctbi='bitcoin-cli -testnet getblockchaininfo'
 alias btctgn='bitcoin-cli -testnet getnetworkinfo'
 alias btctauto='nano /etc/systemd/system/bitcoind_testnet.service'
+alias btctautos='systemctl status bitcoind_testnet.service'
 
 ##LND Mainnet
 alias lndmconf='nano /home/bitcoin/.lnd/lnd.conf'
