@@ -13,7 +13,9 @@
 # Alises for Bitcoin Core - LND - Electrum Personal Server 
 ##System
 
-alias aliases='nano /home/pi/.bash_aliases' 
+alias aliases='nano /home/pi/.bash_aliases'
+alias stop_all='bitcoin-cli stop && bitcoin-cli -testnet stop'
+alias reload_bash=source /home/pi/.bash_aliases && source /home/pi/.bashrc
 
 ##Bitcoin Mainnet 
 alias btcmlog='sudo tail -f /home/pi/.bitcoin/debug.log'
