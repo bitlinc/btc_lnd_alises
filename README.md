@@ -15,7 +15,6 @@
 
 alias aliases='nano /home/pi/.bash_aliases'
 alias stop_all='bitcoin-cli stop && bitcoin-cli -testnet stop'
-alias reload_bash=source /home/pi/.bash_aliases && source /home/pi/.bashrc
 
 ##Bitcoin Mainnet 
 alias btcmlog='sudo tail -f /home/pi/.bitcoin/debug.log'
@@ -66,16 +65,16 @@ alias lndports='sudo netstat -anp | grep lnd'
 ##Electron Personal Server Mainnet
 alias epsm='cd ~/eps_mainnet/electrum-personal-server'
 alias eps='electrum-personal-server'
-alias epsmlog='tail -f /home/pi/EPS_mainnet/eps_mainnet_log'
-alias epsmstart='/home/pi/.local/bin/eps_mainnet/electrum-personal-server /home/pi/EPS_mainnet/config.ini'
-alias epsmconf='sudo nano /home/pi/EPS_mainnet/config.ini'
+alias epsmlog='tail -f /home/pi/eps_mainnet/electrum-personal-server/eps_mainnet_log'
+alias epsmstart='/home/pi/.local/bin/eps_mainnet/electrum-personal-server /home/pi/eps_mainnet/config.ini'
+alias epsmconf='sudo nano /home/pi/eps_mainnet/electrum-personal-server/config.ini'
 alias epsmauto='sudo nano /etc/systemd/system/eps_mainnet.service'
 
 ##Electron Personal Server Testnet
 alias epst='cd ~/eps_testnet/electrum-personal-server'
-alias epstlog='tail -f /home/pi/EPS_testnet/eps_testnet_log'
-alias epststart='/home/pi/.local/bin/eps_testnet/electrum-personal-server /home/pi/EPS_testnet/config.ini'
-alias epstconf='sudo nano /home/pi/EPS_testnet/config.ini'
+alias epstlog='tail -f /home/pi/eps_testnet/electrum-personal-server/eps_testnet_log'
+alias epststart='/home/pi/.local/bin/eps_testnet/electrum-personal-server /home/pi/eps_testnet/config.ini'
+alias epstconf='sudo nano /home/pi/eps_testnet/electrum-personal-server/config.ini'
 alias epstauto='sudo nano /etc/systemd/system/eps_testnet.service'
 
 ##Electrum Wallet Mainnet
