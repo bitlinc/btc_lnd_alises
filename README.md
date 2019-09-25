@@ -65,17 +65,19 @@ alias lndports='sudo netstat -anp | grep lnd'
 ##Electron Personal Server Mainnet
 alias epsm='cd ~/eps_mainnet/electrum-personal-server'
 alias eps='electrum-personal-server'
-alias epsmlog='tail -f /home/pi/eps_mainnet/electrum-personal-server/eps_mainnet_log'
+alias epsmlog='tail -f /home/pi/eps_mainnet/electrum-personal-server/log.txt'
 alias epsmstart='/home/pi/.local/bin/eps_mainnet/electrum-personal-server /home/pi/eps_mainnet/config.ini'
 alias epsmconf='sudo nano /home/pi/eps_mainnet/electrum-personal-server/config.ini'
 alias epsmauto='sudo nano /etc/systemd/system/eps_mainnet.service'
+alias btctautos='systemctl status eps_mainnet.service'
 
 ##Electron Personal Server Testnet
 alias epst='cd ~/eps_testnet/electrum-personal-server'
-alias epstlog='tail -f /home/pi/eps_testnet/electrum-personal-server/eps_testnet_log'
+alias epstlog='tail -f /home/pi/eps_testnet/electrum-personal-server/log.txt'
 alias epststart='/home/pi/.local/bin/eps_testnet/electrum-personal-server /home/pi/eps_testnet/config.ini'
 alias epstconf='sudo nano /home/pi/eps_testnet/electrum-personal-server/config.ini'
 alias epstauto='sudo nano /etc/systemd/system/eps_testnet.service'
+alias btctautos='systemctl status eps_testnet.service'
 
 ##Electrum Wallet Mainnet
 alias emauto='sudo nano /etc/systemd/system/electrum_wallet_mainnet.service'
